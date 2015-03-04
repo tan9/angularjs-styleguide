@@ -10,18 +10,18 @@ The purpose of this style guide is to provide guidance on building AngularJS app
 
   [![AngularJs Patterns: Clean Code](https://raw.githubusercontent.com/johnpapa/angularjs-styleguide/master/assets/ng-clean-code-banner.png)](http://jpapa.me/ngclean)
 
-## Community Awesomeness and Credit
+## Community Awesomeness and Credit<a name="community-awesomeness-and-credit"></a>
 Never work in a vacuum. I find that the AngularJS community is an incredible group who are passionate about sharing experiences. As such, a friend and AngularJS expert Todd Motto and I have collaborated on many styles and conventions. We agree on most, and some we diverge. I encourage you to check out [Todd's guidelines](https://github.com/toddmotto/angularjs-styleguide) to get a sense for his approach and how it compares.
 
 Many of my styles have been from the many pair programming sessions [Ward Bell](http://twitter.com/wardbell) and I have had. While we don't always agree, my friend Ward has certainly helped influence the ultimate evolution of this guide.
 
-## See the Styles in a Sample App
+## See the Styles in a Sample App<a name="see-the-styles-in-a-sample-app"></a>
 While this guide explains the *what*, *why* and *how*, I find it helpful to see them in practice. This guide is accompanied by a sample application that follows these styles and patterns. You can find the [sample application (named modular) here](https://github.com/johnpapa/ng-demos) in the `modular` folder. Feel free to grab it, clone it, or fork it. [Instructions on running it are in its readme](https://github.com/johnpapa/ng-demos/tree/master/modular).
 
-## Translations
+## Translations<a name="translations"></a>
 [Translations of this Angular style guide](https://github.com/johnpapa/angularjs-styleguide/tree/master/i18n) are maintained by the community and can be found here.
 
-## Table of Contents
+## Table of Contents<a name="table-of-contents"></a>
 
   1. [Single Responsibility](#single-responsibility)
   1. [IIFE](#iife)
@@ -40,7 +40,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   1. [Application Structure](#application-structure)
   1. [Modularity](#modularity)
   1. [Startup Logic](#startup-logic)
-  1. [Angular $ Wrapper Services](#angular--wrapper-services)
+  1. [Angular $ Wrapper Services](#angular-dollar-sign-wrapper-services)
   1. [Testing](#testing)
   1. [Animations](#animations)
   1. [Comments](#comments)
@@ -54,7 +54,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
   1. [Contributing](#contributing)
   1. [License](#license)
 
-## Single Responsibility
+## <a name="single-responsibility"></a>Single Responsibility
 
 ### Rule of 1
 ###### [Style [Y001](#style-y001)]
@@ -109,7 +109,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## IIFE
+## IIFE<a name="iife"></a>
 ### JavaScript Closures
 ###### [Style [Y010](#style-y010)]
 
@@ -174,7 +174,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Modules
+## Modules<a name="modules"></a>
 
 ### Avoid Naming Collisions
 ###### [Style [Y020](#style-y020)]
@@ -284,7 +284,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Controllers
+## Controllers<a name="controllers"></a>
 
 ### controllerAs View Syntax
 ###### [Style [Y030](#style-y030)]
@@ -673,7 +673,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Services
+## Services<a name="services"></a>
 
 ### Singletons
 ###### [Style [Y040](#style-y040)]
@@ -712,7 +712,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Factories
+## Factories<a name="factories"></a>
 
 ### Single Responsibility
 ###### [Style [Y050](#style-y050)]
@@ -883,7 +883,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Data Services
+## Data Services<a name="data-services"></a>
 
 ### Separate Data Calls
 ###### [Style [Y060](#style-y060)]
@@ -1008,7 +1008,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
     **[Back to top](#table-of-contents)**
 
-## Directives
+## Directives<a name="directives"></a>
 ### Limit 1 Per File
 ###### [Style [Y070](#style-y070)]
 
@@ -1294,7 +1294,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Resolving Promises for a Controller
+## Resolving Promises for a Controller<a name="resolving-promises-for-a-controller"></a>
 
 ### Controller Activation Promises
 ###### [Style [Y080](#style-y080)]
@@ -1446,7 +1446,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Manual Annotating for Dependency Injection
+## Manual Annotating for Dependency Injection<a name="manual-annotating-for-dependency-injection"></a>
 
 ### UnSafe from Minification
 ###### [Style [Y090](#style-y090)]
@@ -1577,7 +1577,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Minification and Annotation
+## Minification and Annotation<a name="minification-and-annotation"></a>
 
 ### ng-annotate
 ###### [Style [Y100](#style-y100)]
@@ -1688,7 +1688,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Exception Handling
+## Exception Handling<a name="exception-handling"></a>
 
 ### decorators
 ###### [Style [Y110](#style-y110)]
@@ -1809,7 +1809,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Naming
+## Naming<a name="naming"></a>
 
 ### Naming Guidelines
 ###### [Style [Y120](#style-y120)]
@@ -2032,7 +2032,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Application Structure LIFT Principle
+## Application Structure LIFT Principle<a name="application-structure-lift-principle"></a>
 ### LIFT
 ###### [Style [Y140](#style-y140)]
 
@@ -2095,7 +2095,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Application Structure
+## Application Structure<a name="application-structure"></a>
 
 ### Overall Guidelines
 ###### [Style [Y150](#style-y150)]
@@ -2207,7 +2207,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Modularity
+## Modularity<a name="modularity"></a>
 
 ### Many Small, Self Contained Modules
 ###### [Style [Y160](#style-y160)]
@@ -2271,7 +2271,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Startup Logic
+## Startup Logic<a name="startup-logic"></a>
 
 ### Configuration
 ###### [Style [Y170](#style-y170)]
@@ -2327,7 +2327,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Angular $ Wrapper Services
+## Angular $ Wrapper Services<a name="angular-dollar-sign-wrapper-services"></a>
 
 ### $document and $window
 ###### [Style [Y180](#style-y180)]
@@ -2345,7 +2345,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 
 **[Back to top](#table-of-contents)**
 
-## Testing
+## Testing<a name="testing"></a>
 Unit testing helps maintain clean code, as such I included some of my recommendations for unit testing foundations with links for more information.
 
 ### Write Tests with Stories
@@ -2464,7 +2464,7 @@ Unit testing helps maintain clean code, as such I included some of my recommenda
 
 **[Back to top](#table-of-contents)**
 
-## Animations
+## Animations<a name="animations"></a>
 
 ### Usage
 ###### [Style [Y210](#style-y210)]
@@ -2497,7 +2497,7 @@ Unit testing helps maintain clean code, as such I included some of my recommenda
 
 **[Back to top](#table-of-contents)**
 
-## Comments
+## Comments<a name="comments"></a>
 
 ### jsDoc
 ###### [Style [Y220](#style-y220)]
@@ -2549,7 +2549,7 @@ Unit testing helps maintain clean code, as such I included some of my recommenda
 
 **[Back to top](#table-of-contents)**
 
-## JS Hint
+## JS Hint<a name="js-hint"></a>
 
 ### Use an Options File
 ###### [Style [Y230](#style-y230)]
@@ -2626,7 +2626,7 @@ Unit testing helps maintain clean code, as such I included some of my recommenda
 
 **[Back to top](#table-of-contents)**
 
-## Constants
+## Constants<a name="constants"></a>
 
 ### Vendor Globals
 ###### [Style [Y240](#style-y240)]
@@ -2676,7 +2676,7 @@ Unit testing helps maintain clean code, as such I included some of my recommenda
 
 **[Back to top](#table-of-contents)**
 
-## File Templates and Snippets
+## File Templates and Snippets<a name="file-templates-and-snippets"></a>
 Use file templates or snippets to help follow consistent styles and patterns. Here are templates and/or snippets for some of the web development editors and IDEs.
 
 ### Sublime Text
@@ -2745,7 +2745,7 @@ Use file templates or snippets to help follow consistent styles and patterns. He
 
 **[Back to top](#table-of-contents)**
 
-## Yeoman Generator
+## Yeoman Generator<a name="yeoman-generator"></a>
 ###### [Style [Y260](#style-y260)]
 
 You can use the [HotTowel yeoman generator](http://jpapa.me/yohottowel) to create an app that serves as a starting point for Angular that follows this style guide.
@@ -2771,7 +2771,7 @@ You can use the [HotTowel yeoman generator](http://jpapa.me/yohottowel) to creat
 
 **[Back to top](#table-of-contents)**
 
-## Routing
+## Routing<a name="routing"></a>
 Client-side routing is important for creating a navigation flow between views and composing views that are made of many smaller templates and directives.
 
 ###### [Style [Y270](#style-y270)]
@@ -2794,7 +2794,7 @@ Client-side routing is important for creating a navigation flow between views an
 
 **[Back to top](#table-of-contents)**
 
-## Task Automation
+## Task Automation<a name="task-automation"></a>
 Use [Gulp](http://gulpjs.com) or [Grunt](http://gruntjs.com) for creating automated tasks. Gulp leans to code over configuration while Grunt leans to configuration over code. I personally prefer Gulp as I feel it is easier to read and write, but both are excellent.
 
 ###### [Style [Y400](#style-y400)]
@@ -2817,10 +2817,10 @@ Use [Gulp](http://gulpjs.com) or [Grunt](http://gruntjs.com) for creating automa
 
 **[Back to top](#table-of-contents)**
 
-## AngularJS docs
+## AngularJS docs<a name="angularjs-docs"></a>
 For anything else, API reference, check the [Angular documentation](//docs.angularjs.org/api).
 
-## Contributing
+## Contributing<a name="contributing"></a>
 
 Open an issue first to discuss potential changes/additions. If you have questions with the guide, feel free to leave them as issues in the repository. If you find a typo, create a pull request. The idea is to keep the content up to date and use github’s native feature to help tell the story with issues and PR’s, which are all searchable via google. Why? Because odds are if you have a question, someone else does too! You can learn more here at about how to contribute.
 
@@ -2831,7 +2831,7 @@ Open an issue first to discuss potential changes/additions. If you have question
     2. Open a Pull Request, reference the issue, and explain the change and why it adds value.
     3. The Pull Request will be evaluated and either merged or declined.
 
-## License
+## License<a name="license"></a>
 
 _tldr; Use this guide. Attributions are appreciated._
 
