@@ -21,7 +21,7 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 ## Translations<a name="translations"></a>
 [Translations of this Angular style guide](https://github.com/johnpapa/angularjs-styleguide/tree/master/i18n) are maintained by the community and can be found here.
 
-## 目錄<a name="table-of-contents"></a>
+## <a name="table-of-contents"></a>目錄
 
   1. [Single Responsibility](#single-responsibility)
   1. [IIFE](#iife)
